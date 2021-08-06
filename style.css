@@ -38,7 +38,8 @@
     /*items menu*/
   .nav--container--item{
       list-style-type: none;
-      display: flex;
+      display: inline-flex;
+      flex-basis:130px;
   }
 
   /*Menu*/

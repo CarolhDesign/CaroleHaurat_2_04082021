@@ -1,4 +1,10 @@
 /* Menu */
+/*Reset CSS*/
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway';
+}
 
 @media screen and (max-width: 767px) {
 
@@ -20,18 +26,17 @@
   /*Menu logo*/
   .nav--container .logo{
     left: 0px;
-    position:relative;
+    position:absolute;
     align-self: center;
     justify-content: center;
-    left: 0px;
+    left: 15px;
   }
 
   /*Menu liens*/
   .nav--container--item--link .lien1 a,   .nav--container--item--link .lien2 a{
     text-decoration: none;
     align-self: center;
-    display: block;
-    width:150px;
+    justify-content: space-around;
     text-align: center;
     padding :45px 0;
     border-bottom: 3px solid white;
@@ -64,6 +69,18 @@
   color: #0065fc
 }
 
+.menu{
+  flex-basis:100%;
+}
+
+.menu a{
+  flex-grow:2;
+}
+
+.lien2 a{
+  border-bottom : 3px solid grey;
+}
+
 .register a{
   color: #0065fc;
   font-weight: 800;
@@ -80,6 +97,4 @@
   top:100px;
   justify-content: center;
   align-items: center;
-  left: -25px;
 }
-
