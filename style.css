@@ -12,6 +12,53 @@
          url('../fonts/raleway-v22-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
   }
 
-  body{
+  /*Reset CSS*/
+*{
+    margin: 0px;
+    padding: 0px;
     font-family: 'Raleway';
+}
+
+  .nav--container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      width:100%;
+      margin: 0 auto;
+      background-color: white;
+      position: relative;
+      top: 0px;
   }
+
+  .nav--container--item{
+      list-style-type: none;
+      display: flex;
+  }
+
+
+  .nav--container .menu{
+    right:10px;
+    position:relative;
+    align-self: center;
+
+  }
+
+  .nav--container .logo{
+    left:10px;
+    position:relative;
+    display: block;  
+    align-self: center;
+  }
+
+  .nav--container--item--link{
+      flex: 1 1 auto;
+      margin-left:69px;
+      position: relative;
+
+  }
+  .nav--container--item--link a{
+    text-decoration: none;
+    align-self: center;
+    display: block;
+}
