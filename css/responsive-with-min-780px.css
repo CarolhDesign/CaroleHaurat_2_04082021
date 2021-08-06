@@ -1,18 +1,6 @@
-/* raleway-regular - fonts */
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/raleway-v22-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/raleway-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/raleway-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/raleway-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/raleway-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/raleway-v22-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
-  }
+@media screen and (min-width: 780px) {
 
-  /*Reset CSS*/
+/*Reset CSS*/
 *{
     margin: 0px;
     padding: 0px;
@@ -32,13 +20,11 @@
       position: relative;
       top: 0px;
       border-top: 3px solid white;
-
   }
 
     /*items menu*/
   .nav--container--item{
       list-style-type: none;
-      display: flex;
   }
 
   /*Menu*/
@@ -75,5 +61,23 @@
     color: #1f1f1f;
 }
 
+/*Menu liens hover */
+.nav--container--item--link a:hover {
+  border-top: 3px solid #0065fc;
+  color: #0065fc
+}
+
+/*Menu lien active*/
+.active a {
+  border-top: 3px solid #0065fc;
+  color: #0065fc
+}
+
+.register a{
+  color: #0065fc;
+  font-weight: 800;
+}
 
 /*Fin Menu CSS*/
+
+}
