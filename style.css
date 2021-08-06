@@ -18,7 +18,9 @@
     padding: 0px;
     font-family: 'Raleway';
 }
+  /*Début Menu CSS*/
 
+  /*Container Menu CSS*/
   .nav--container{
       display: flex;
       flex-direction: row;
@@ -29,36 +31,66 @@
       background-color: white;
       position: relative;
       top: 0px;
+      border-top: 3px solid white;
+
   }
 
+    /*items menu*/
   .nav--container--item{
       list-style-type: none;
       display: flex;
   }
 
-
+  /*Menu*/
   .nav--container .menu{
     right:10px;
     position:relative;
     align-self: center;
 
   }
-
+  /*Menu logo*/
   .nav--container .logo{
     left:10px;
     position:relative;
     display: block;  
     align-self: center;
+    left: 56px;
   }
 
+  /*Menu bloc*/
   .nav--container--item--link{
       flex: 1 1 auto;
-      margin-left:69px;
       position: relative;
 
   }
+  /*Menu liens*/
   .nav--container--item--link a{
     text-decoration: none;
     align-self: center;
     display: block;
+    width:150px;
+    text-align: center;
+    padding :59px 0;
+    border-top: 3px solid white;
+    color: #1f1f1f;
+
+
 }
+/*Menu liens hover */
+.nav--container--item--link a:hover {
+  border-top: 3px solid #0065fc;
+  color: #0065fc
+}
+
+/*Menu lien active*/
+.active a {
+  border-top: 3px solid #0065fc;
+  color: #0065fc
+}
+
+.register a{
+  color: #0065fc;
+  font-weight: 800;
+}
+
+/*Fin Menu CSS*/
