@@ -6,12 +6,11 @@
   <title>Reservia</title>
   <meta name="description" content="Trouvez votre hébergement de rêves pour vos vacances"> <!--SEO meta description-->
   <meta name="keywords" content="Hébergement, vacances, voyage, Location, France"><!-- SEO mots clés-->
-
+  
   <link rel="stylesheet" href="style.css">
   <link href="/css/responsive-max-width-767px.css" rel="stylesheet"> <!--Responsive mobile-->
   <link href="/css/responsive-with-min-780px.css" rel="stylesheet"> <!--Responsive PC-->
-  <script src="https://kit.fontawesome.com/69f6951327.js" crossorigin="anonymous"></script> <!--Font Awesome-->
-  <link href="/css/all.css" rel="stylesheet"> <!--Font Awesome-->
+
 
 </head>
 <body>
@@ -22,12 +21,51 @@
                 <img src="/images/logo/Reservia.svg" alt="logo">
             </div>
             <ul class="nav--container--item nav--container--item menu"><!--Item du menu-->
-                <li class="nav--container--item nav--container--item--link active lien1"><a href="#hebergement">Hébergement</a></li>
+                <li class="nav--container--item nav--container--item--link active lien1"><a href="#hebergement">Hébergements</a></li>
                 <li class="nav--container--item nav--container--item--link lien2"><a href="#activites">Activités</a></li>
                 <li class="nav--container--item nav--container--item--link register"><a href="#">S'inscrire</a></li>
             </ul>
         </nav>
         <!--Fin du menu-->
     </header>
+
+    <section id="search">
+        <div class="search--container">
+            <div class="search--container--item">
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2><br>
+                <p>En plein centre ville ou en pleine nature</p><br>
+            </div>
+            <div class="button--search--container">
+                <div class="button--search--item">
+                    <div class="button--search--icon"></div>
+                    <input type="text" placeholder="Marseille,France"><input type="submit" value="Rechercher">
+                </div>
+            </div>
+        </div>
+
+        <div class="filtre--container">
+
+            <div class="filtre--container--item titre">
+                <p>Filtres</p>
+            </div>
+
+            <div class="filtre--container--item">
+                <img class="icons" src="/images/money-bill-wave.svg" width="20px"><p class="titre--filter">économique</p>
+            </div>
+
+            <div class="filtre--container--item">
+                <img class="icons" src="/images/heart.svg" width="20px"><p class="titre--filter">Familial</p>
+            </div>
+
+            <div class="filtre--container--item">
+                <img class="icons" src="/images/heart.svg" width="20px"><p class="titre--filter">Romantique</p>
+            </div>
+
+            <div class="filtre--container--item dog">
+                <img class="icons" src="/images/dog.svg" width="20px"><p class="titre--filter">Animaux autorisés</p>
+            </div>
+
+        </div>
+    </section>
 </body>
 </html>

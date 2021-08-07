@@ -80,4 +80,44 @@
 
 /*Fin Menu CSS*/
 
+.search--container
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
+
+.button--search--container{
+  flex-direction: row;
+}
+.filtre--container{
+  display: flex;
+}
+.filtre--container--item{
+  display: inline-flex;
+  justify-content: space-around;
+  margin-left:2%;
+  padding-right:20px;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+  border-radius: 20px;
+  flex-basis: 120px;
+
+}
+
+.icons{
+  display: block;
+  padding : 6%;
+  background-color:blue;
+  color:white;
+  border: 2px solid blue;
+  border-radius: 20px;
+}
+
+.titre--filter{
+  text-align: center;
+}
+
+}
+
