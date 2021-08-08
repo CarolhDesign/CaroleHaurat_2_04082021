@@ -6,7 +6,7 @@
   font-family: 'Raleway';
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 779px) {
 
     .nav--container{
         display: flex;
@@ -108,18 +108,78 @@
   padding-bottom:8%;
 }
 
+
+/*Début Design bouton de recherche*/
+
+/*Container bouton de recherche*/
 .button--search--container{
+  display: flex;  
   flex-direction: row;
+  flex-wrap: nowrap;
+  width:500px;
 }
 
+/*content bouton de recherche*/
 
-.full-btn{
+.button--search--container svg{
+  background-color:#F2F2F2;
+  fill:black;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+/*svg bouton de recherche*/
+
+.search--svg{
+  display: block;
+  width:15px;
+  padding:2%;
+
+}
+/*texte bouton de recherche*/
+
+.button--search--text{
+width:140px;
+height:32px;
+border: 2px solid #F2F2F2;
+font-weight: 700;
+padding-left: 10px;
+}
+
+.button--search--submit{
+  width:120px;
+  height:34px;
+  border:none;
+  background-color: #0065FC;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color:white;
+  font-family: "raleway";
+  font-weight: 600;
+}
+/*Fin bouton de recherche*/
+
+
+/*Début container des boutons filtres icones */
+
+.filtre-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  padding:1%;
+}
+
+/*Bloc des boutons filtres icones */
+
+.btn-bloc{
   display:flex;
   flex-direction:row;
-  flex-wrap:wrap;
-  justify-content:space-around;
+  justify-content:flex-start;
   align-items:center;
+  flex-basis: 15%;
 }
+
+/*Design des Icones des boutons filtres */
 
 .icons svg{
   width:20px;
@@ -130,17 +190,19 @@
   padding:50%;
   fill:#0065FC;
   right: 0px;
-  bottom: 0px;
+  bottom:-2px;
   position: relative;
 }
 
 .icons{
   position:relative;
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
+/*Content des boutons filtres */
+
 .btn{
-  display:block;
+  display:flex;
   height:40px;
   border-top:2px solid #F2F2F2;
   border-bottom: 2px solid #F2F2F2;
@@ -151,78 +213,45 @@
   font-weight: 800;
   white-space:nowrap;
   padding: 0 0 0 3px;
+  
 }
 
-.button-animaux{}
+/* Titre des filtres */
+
+.filtre{
+  font-weight: 800;
+  flex-basis: 6%;
+}
+
+/*modification position des contenus des boutons filtres */
+
+.btn p{
+  margin-top: 0px;
+  padding:10px;
+}
+
+
+/*Tailles des boutons filtres */
+
 
 .button-animaux p{
   width:198px;
+
 }
 
 .button-economique p{
   width:155px;
-
-}
-
-.button-economique{
-  align-self: center;
-}
-
-.button-familial{
-  align-self: center;
 }
 
 .button-familial p{
   width:112px;
 }
 
-.button-romantique{
-  align-self: end;
-}
 .button-romantique p{
-  width:220px;}
-
-p{
-  margin-top: 10px;
-  padding:0;
+  width:142px;
 }
 
-.btn-bloc{
-  display:flex;
-  flex-direction:row;
-  flex-wrap: nowrap;  
-  justify-content:center;
-  align-items:center;
-  margin-bottom:2%;
-
-}
-
-.filtre-container{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:flex-start;
-  align-items: flex-start;
-  width:100%;
-  padding:2%;
-  position: relative;
-  left:-50px;
-}
-
-
-.filtre{
-  display: inline;
-  width:100%;
-  margin-bottom:10px;
-  font-weight: 800;
-  left: 50px;
-  position: relative;
-}
-
-.button-animaux{
-  align-self: flex-end;
- 
-}
+/*Fin container des boutons filtres icones */
 .content{
   position: relative;
   top:150px;
