@@ -7,7 +7,6 @@
 }
 
 @media screen and (max-width: 779px) {
-
     .nav--container{
         display: flex;
         flex-direction: row;
@@ -182,7 +181,7 @@ padding-left: 10px;
 /*Design des Icones des boutons filtres */
 
 .icons svg{
-  width:20px;
+  width:20px!IMPORTANT;
   height:20px;
   background-color: #DEEBFF;
   border: 1px solid #DEEBFF;
@@ -252,6 +251,21 @@ padding-left: 10px;
   width:142px;
 }
 
+.information{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding:1%;
+}
+.info{
+  color:#0065FC;
+  border: 2px solid #f2f2f2;
+  padding: 6px 12px 6px 12px;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 1%;
+}
 /*Fin container des boutons filtres icones */
 .content{
   position: relative;
@@ -269,11 +283,14 @@ padding-left: 10px;
   border-radius: 10px;
   flex-wrap: wrap;
   padding:1%;
+  width:100%;
 }
 
 .titre{
   display:flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width:100%;
   margin-top:5%;
   margin-bottom:5%;
@@ -290,7 +307,7 @@ padding-left: 10px;
   background:white;
   border-radius:10px;
   padding:0.2%;
-  width:280px;
+  width:380px;
   margin-bottom: 2%;
   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23); 
   box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
@@ -337,27 +354,95 @@ padding-left: 10px;
   width:14px;
 }
 
-.stars-blank svg{
-  fill:#F2F2F2;
+.stars-blank{
+  color:#F2F2F2;
 }
 
-.stars-full svg{
-  fill: #0065FC;
-  ;
-}
+.stars-full{
+  color: #0065FC;
+}}
 
 /*Fin hébergements */
 /*début Populaire */
 
+.container-articles{
+  display:flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding:1%;
+}
+
 #populaire{
   display:flex;
   flex-direction: column;
-  flex-grow: 2;
   flex-wrap: wrap;
   background:#F2F2F2;
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
+  width:100%;
+  padding: 2%;
 }
+
+.cards-pop{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding :0.3%;
+  border-radius: 10px;
+  margin-bottom:3%;
+  width: 380px;
+  height: 145px;
+  -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23); 
+  box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
+}
+
+.cards-pop-img{
+  display: flex;
+  height:140px;
+  width:100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  flex-basis: 40%;
+  background-image:url('/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+  background-size: cover;
+}
+
+.cards-pop-txt{
+  flex-basis:60%;
+  padding: 2%;
+  display:flex;
+  flex-direction: column;
+}
+
+.cards-pop-txt h2{
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.cards-pop-txt p{
+  font-size: 14px;
+}
+
+.cards-pop-txt .notation{
+  align-self:flex-start;
+  position: relative;
+  top:50%;
+}
+
+.titre-pop{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom:6%;
+  padding-top:2%
+}
+
 
 }
