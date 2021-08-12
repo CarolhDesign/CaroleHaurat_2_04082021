@@ -25,19 +25,7 @@
   /*Début Menu CSS*/
 
   /*Container Menu CSS*/
-  .nav--container{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: space-between;
-      width:100%;
-      margin: 0 auto;
-      background-color: white;
-      position: relative;
-      top: 0px;
-      border-top: 3px solid white;
 
-  }
 
     /*items menu*/
   .nav--container--item{
