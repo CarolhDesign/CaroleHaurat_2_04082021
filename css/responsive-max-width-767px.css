@@ -6,8 +6,57 @@
   font-family: 'Raleway';
 }
 
+  /*Début Menu CSS*/
+
+  /*Container Menu CSS*/
+
+
+    /*items menu*/
+    .nav--container--item{
+      list-style-type: none;
+      display: inline-flex;
+      flex-basis:130px;
+  }
+
+  /*Menu*/
+  .nav--container .menu{
+    right:10px;
+    position:relative;
+    align-self: center;
+  }
+
+  /*Menu logo*/
+  .nav--container .logo{
+    left:10px;
+    position:relative;
+    display: block;  
+    align-self: center;
+    left: 56px;
+  }
+
+  /*Menu bloc*/
+  .nav--container--item--link{
+      flex: 1 1 auto;
+      position: relative;
+
+  }
+  /*Menu liens*/
+  .nav--container--item--link a{
+    text-decoration: none;
+    align-self: center;
+    display: block;
+    width:150px;
+    text-align: center;
+    padding :59px 0;
+    border-top: 3px solid white;
+    color: #1f1f1f;
+}
+
+
 @media screen and (max-width: 779px) {
-    .nav--container{
+    
+  
+  .nav--container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

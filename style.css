@@ -16,58 +16,35 @@
     font-family: 'Font Awesome 5 Free';
 
   }
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
   /*Reset CSS*/
-*{
+  *{
     margin: 0px;
     padding: 0px;
     font-family: 'Raleway';
 }
-  /*Début Menu CSS*/
-
-  /*Container Menu CSS*/
-
-
-    /*items menu*/
-  .nav--container--item{
-      list-style-type: none;
-      display: inline-flex;
-      flex-basis:130px;
-  }
-
-  /*Menu*/
-  .nav--container .menu{
-    right:10px;
-    position:relative;
-    align-self: center;
-  }
-
-  /*Menu logo*/
-  .nav--container .logo{
-    left:10px;
-    position:relative;
-    display: block;  
-    align-self: center;
-    left: 56px;
-  }
-
-  /*Menu bloc*/
-  .nav--container--item--link{
-      flex: 1 1 auto;
-      position: relative;
-
-  }
-  /*Menu liens*/
-  .nav--container--item--link a{
-    text-decoration: none;
-    align-self: center;
-    display: block;
-    width:150px;
-    text-align: center;
-    padding :59px 0;
-    border-top: 3px solid white;
-    color: #1f1f1f;
-}
-
-
-/*Fin Menu CSS*/
-
