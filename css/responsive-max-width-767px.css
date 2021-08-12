@@ -444,5 +444,149 @@ padding-left: 10px;
   padding-top:2%
 }
 
+    /*Début Activités */
 
+    #activite{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:100%;
+      flex-wrap: wrap;
+      padding:3%;
+    }
+
+    .activite-content{
+      display:flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: stretch;
+      flex-wrap: wrap;
+      width:80%;
+
+    }
+
+    .big-box-activite{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: stretch;
+      height: 241px;
+      -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23); 
+      box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
+      margin-right:2%;
+      margin-bottom:4%;
+    }
+
+    .regular-box-activite{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: stretch;
+      height: 241px;
+      -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23); 
+      box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
+      margin-right:2%;
+      margin-bottom:4%;
+    }
+
+    .medium-box-activite{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: stretch;
+      height: 241px;
+      -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23); 
+      box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
+      margin-right:2%;
+      margin-bottom:4%;
+
+    }
+
+    .small-box-activite{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: stretch;
+      height: 241px;
+      -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23); 
+      box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
+      margin-right:2%;
+      margin-bottom:4%;
+    }
+
+  .b1{
+      background-image: url('/images/activites/4_small/vieuxport.jpg');
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center center;
+      border-radius: 10px;
+    }
+
+    .b2{
+      background-image: url('/images/activites/4_small/FortPomegues.jpg');
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center center;
+      border-radius: 10px;
+    }
+
+    .b3{
+      background-image: url('/images/activites/4_small/ileFrioul.jpg');
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center center;
+      border-radius: 10px;
+    }
+
+    
+    .b4{
+      background-image: url('/images/activites/4_small/Calanques.jpg');
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center center;
+      background-position: center center;
+      border-radius: 10px;
+    }
+
+    .b5{
+      background-image: url('/images/activites/4_small/notredamedelagarde.jpg');
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center center;
+      border-radius: 10px;
+    }
+
+    .b6{
+      background-image: url('/images/activites/4_small/parclongchamp.jpg');
+      background-clip: content-box;
+      background-size: cover;
+      background-position: center center;
+      border-radius: 10px;
+    }
+
+
+    .bloc2-activite{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 50%;
+      height:450px;
+    }
+
+  
+   .activite-txt{
+      background-color:white;
+      padding:1%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      text-align: center;
+      display: block;
+      width:100%;
+      height:50px;
+    }
+
+.activite-txt h2{
+  font-size:14px;
+}
+    
 }
