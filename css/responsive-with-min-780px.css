@@ -25,6 +25,7 @@
         position: relative;
         top: 0;
         border-top: 3px solid white;
+        width:1400px;
     }
   
       /*items menu*/
@@ -608,6 +609,10 @@
       top:35%;
     }
 
+    .content{
+      left:22%;
+    }
+    
   }
   
   

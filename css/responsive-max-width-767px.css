@@ -588,5 +588,10 @@ padding-left: 10px;
 .activite-txt h2{
   font-size:14px;
 }
+
+.content{
+ position:relative;
+ left:0;
+}
     
 }
