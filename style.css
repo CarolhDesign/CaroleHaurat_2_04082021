@@ -17,27 +17,6 @@
 
   }
 
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -47,4 +26,8 @@ html {
     margin: 0px;
     padding: 0px;
     font-family: 'Raleway';
+}
+
+a:link{
+  text-decoration: none;
 }
