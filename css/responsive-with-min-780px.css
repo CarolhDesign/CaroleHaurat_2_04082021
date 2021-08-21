@@ -186,6 +186,13 @@
     flex-basis: 15%;
   }
   
+  .btn-bloc:hover .icons svg{
+    transform: scale(1.2);
+    background-color:#0065FC;
+    border-color:#DEEBFF;
+    fill:white;
+  }
+
   /*Design des Icones des boutons filtres */
   
   .icons svg{
@@ -199,6 +206,7 @@
     right: 0px;
     bottom:-2px;
     position: relative;
+    transition: all 1s ease-in;
   }
   
   .icons{
