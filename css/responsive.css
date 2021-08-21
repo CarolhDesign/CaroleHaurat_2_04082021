@@ -586,7 +586,7 @@ padding-left: 10px;
     }
 
   .b1{
-      background-image: url('images/activites/4_small/vieuxport.jpg');
+      background-image: url('/images/activites/4_small/vieuxport.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -594,7 +594,7 @@ padding-left: 10px;
     }
 
     .b2{
-      background-image: url('images/activites/4_small/FortPomegues.jpg');
+      background-image: url('/images/activites/4_small/FortPomegues.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -602,7 +602,7 @@ padding-left: 10px;
     }
 
     .b3{
-      background-image: url('images/activites/4_small/ileFrioul.jpg');
+      background-image: url('/images/activites/4_small/ileFrioul.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -611,7 +611,7 @@ padding-left: 10px;
 
     
     .b4{
-      background-image: url('images/activites/4_small/Calanques.jpg');
+      background-image: url('/images/activites/4_small/Calanques.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -620,7 +620,7 @@ padding-left: 10px;
     }
 
     .b5{
-      background-image: url('images/activites/4_small/notredamedelagarde.jpg');
+      background-image: url('/images/activites/4_small/notredamedelagarde.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -628,7 +628,7 @@ padding-left: 10px;
     }
 
     .b6{
-      background-image: url('images/activites/4_small/parclongchamp.jpg');
+      background-image: url('/images/activites/4_small/parclongchamp.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
