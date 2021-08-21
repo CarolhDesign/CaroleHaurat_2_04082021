@@ -10,6 +10,9 @@
   h2{
     font-size:21px;
   }
+  a:visited, a:link{
+    color:black;
+  }
   
     /*Début Menu CSS*/
   
@@ -20,7 +23,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: flex-start;
-        width:60%;
+        width:100%;
         background-color: white;
         position: relative;
         top: 0;
@@ -172,7 +175,7 @@
     flex-wrap: wrap;
     justify-content:flex-start;
     padding:1%;
-    width:70%;
+    width:100%;
   }
   
   /*Bloc des boutons filtres icones */
@@ -198,6 +201,7 @@
     right: 0px;
     bottom:-2px;
     position: relative;
+    transition: all 1s ease-in;
   }
   
   .icons{
@@ -254,6 +258,10 @@
   
   .button-romantique p{
     width:142px;
+  }
+
+  .icons svg:hover{
+    transform:scale(1.2);
   }
   
   .information{
@@ -494,7 +502,7 @@
       justify-content: space-around;
       align-items: stretch;
       flex-wrap: wrap;
-      width:700px;
+      width:50%;
 
     }
 
@@ -507,18 +515,16 @@
       width:280px;
       -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23); 
       box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
-      margin-right:2%;
     }
 
     .regular-box-activite{
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      align-items: center;
+      align-items: stretch;
       height: 196px;
       -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23); 
       box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
-      margin-right:2%;
       margin-bottom:2%;
     }
 
@@ -598,12 +604,7 @@
     }
 
 
-    .bloc2-activite{
-      display: flex;
-      flex-direction: column;
-      flex-basis: 50%;
-      height:450px;      
-    }
+    
 
   
    .activite-txt{
