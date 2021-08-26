@@ -329,6 +329,8 @@ padding-left: 10px;
   width:142px;
 }
 
+  /*Bloc information*/
+
 .information{
   display:flex;
   flex-direction: row;
@@ -338,6 +340,9 @@ padding-left: 10px;
   margin-bottom:20px;
   margin-top: 20px;
 }
+
+  /*Texte information*/
+
 .info{
   color:#0065FC;
   border: 2px solid #f2f2f2;
@@ -366,6 +371,8 @@ padding-left: 10px;
   width:100%;
 }
 
+    /*Titre hébergement */
+
 .titre{
   display:flex;
   flex-direction: column;
@@ -377,6 +384,8 @@ padding-left: 10px;
   font-size: 14px;
   font-weight: bold;
 }
+
+    /* Boites hébergements */
 
 .card{
   display:flex;
@@ -395,11 +404,15 @@ padding-left: 10px;
   box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
 }
 
+  /*Bloc image card */
+
 .header-img{
   width:100%;
   height:130px;
   display:block;
 }
+
+  /*Propriétés des images des cards*/
 
 .header-img img{
   width: 300px;
@@ -409,6 +422,9 @@ padding-left: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
+  /*Texte des cards*/
+
 .card-txt{
   display:flex;
   flex-direction: column;
@@ -423,17 +439,26 @@ padding-left: 10px;
   width:100%;
 }
 
+  /*h2 Cards*/
+
 .card-txt h2 {
   font-size:14px;
   font-weight: 800;
 }
 
+  /*paragraphe cards*/
+
 .card-txt p {
   font-size:14px;
 }
+
+  /*Stong des prix*/
+
 .prix{
   font-weight: 900;
 }
+
+  /*Tailles et couleurs des étoiles de notation*/
 
 .notation svg{
   width:14px;
@@ -471,6 +496,9 @@ padding-left: 10px;
   padding: 2%;
 }
 
+  /*Bloc image pop */
+
+
 .cards-pop{
   display: flex;
   flex-direction: row;
@@ -487,6 +515,8 @@ padding-left: 10px;
   -webkit-box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23); 
   box-shadow: 0px 4px 7px 0px rgba(0,0,0,0.23);
 }
+
+  /*Propriétés des images pop */
 
 .cards-pop-img{
   height:140px;
@@ -505,6 +535,8 @@ padding-left: 10px;
   border-bottom-left-radius: 10px;
 }
 
+  /*Textes des cards pop */
+
 .cards-pop-txt{
   flex-basis:60%;
   padding: 2%;
@@ -514,19 +546,27 @@ padding-left: 10px;
   top: -30px;
 }
 
+.cards-pop-txt p{
+  font-size: 14px;
+}
+
+  /*Titre h2 des cards pop */
+
 .cards-pop-txt h2{
   font-size: 14px;
   font-weight: 800;
 }
 
-.cards-pop-txt p{
-  font-size: 14px;
-}
+
+   /*Position des étoiles de notation dans les cards pop */
 
 .cards-pop-txt .notation{
   position: relative;
   top:60px;
 }
+
+  /*Bloc titre des cards pop */
+
 .titre-pop{
   display:flex;
   flex-direction:row;
@@ -548,6 +588,8 @@ padding-left: 10px;
       padding:3%;
     }
 
+        /*Blocs activités */
+
     .activite-content{
       display:flex;
       flex-direction: column;
@@ -557,6 +599,7 @@ padding-left: 10px;
       width:80%;
 
     }
+         /*Propriétés big box des grid activités */
 
     .big-box-activite{
       display: flex;
@@ -569,6 +612,8 @@ padding-left: 10px;
       margin-right:2%;
       margin-bottom:4%;
     }
+    
+    /*Propriétés regular des grid activités */
 
     .regular-box-activite{
       display: flex;
@@ -581,6 +626,8 @@ padding-left: 10px;
       margin-right:2%;
       margin-bottom:4%;
     }
+    
+    /*Propriétés medium des grid activités */
 
     .medium-box-activite{
       display: flex;
@@ -594,6 +641,7 @@ padding-left: 10px;
       margin-bottom:4%;
 
     }
+    /*Propriétés small des grid activités */
 
     .small-box-activite{
       display: flex;
@@ -606,6 +654,8 @@ padding-left: 10px;
       margin-right:2%;
       margin-bottom:4%;
     }
+  
+    /*Images des activités */
 
   .b1{
       background-image: url('/p2/images/activites/4_small/vieuxport.jpg');
@@ -657,6 +707,7 @@ padding-left: 10px;
       border-radius: 10px;
     }
 
+       /*bloc droit des activités */
 
     .bloc2-activite{
       display: flex;
@@ -665,10 +716,13 @@ padding-left: 10px;
       height:450px;
       margin-bottom: 4%;
     }
+       /*bloc gauche des activités */
 
     .bloc1-activite{
       margin-bottom: 4%;
     }
+
+        /*Texte des activités */
 
    .activite-txt{
       background-color:white;
@@ -689,6 +743,8 @@ padding-left: 10px;
   font-size:14px;
   color:black;
 }
+
+/*Marges du site web */
 
 .content{
  position:relative;
