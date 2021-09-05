@@ -3,13 +3,13 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: url('/p2/fonts/raleway-v22-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/CaroleHaurat_2_04082021/fonts/raleway-v22-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('/p2/fonts/raleway-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/p2/fonts/raleway-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/p2/fonts/raleway-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('/p2/fonts/raleway-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('/p2/fonts/raleway-v22-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+       url('/CaroleHaurat_2_04082021/fonts/raleway-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/CaroleHaurat_2_04082021/fonts/raleway-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/CaroleHaurat_2_04082021/fonts/raleway-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/CaroleHaurat_2_04082021/fonts/raleway-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/CaroleHaurat_2_04082021/fonts/raleway-v22-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
 }
 
 i{
@@ -628,7 +628,7 @@ color:black;
        /*Images des activités */
 
   .b1{
-      background-image: url('/p2/images/activites/4_small/vieuxport.jpg');
+      background-image: url('/CaroleHaurat_2_04082021/images/activites/4_small/vieuxport.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -636,7 +636,7 @@ color:black;
     }
 
     .b2{
-      background-image: url('/p2/images/activites/4_small/FortPomegues.jpg');
+      background-image: url('/CaroleHaurat_2_04082021/images/activites/4_small/FortPomegues.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -644,7 +644,7 @@ color:black;
     }
 
     .b3{
-      background-image: url('/p2/images/activites/4_small/ileFrioul.jpg');
+      background-image: url('/CaroleHaurat_2_04082021/images/activites/4_small/ileFrioul.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -653,7 +653,7 @@ color:black;
 
     
     .b4{
-      background-image: url('/p2/images/activites/4_small/Calanques.jpg');
+      background-image: url('/CaroleHaurat_2_04082021/images/activites/4_small/Calanques.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -662,7 +662,7 @@ color:black;
     }
 
     .b5{
-      background-image: url('/p2/images/activites/4_small/notredamedelagarde.jpg');
+      background-image: url('/CaroleHaurat_2_04082021/images/activites/4_small/notredamedelagarde.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
@@ -670,7 +670,7 @@ color:black;
     }
 
     .b6{
-      background-image: url('/p2/images/activites/4_small/parclongchamp.jpg');
+      background-image: url('/CaroleHaurat_2_04082021/images/activites/4_small/parclongchamp.jpg');
       background-clip: content-box;
       background-size: cover;
       background-position: center center;
