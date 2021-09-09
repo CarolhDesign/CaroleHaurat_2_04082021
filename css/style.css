@@ -141,6 +141,7 @@ color:black;
     flex-direction: column;
     flex-wrap: nowrap;
     padding:1%;
+ 
   }
   
   .search--container h2{
@@ -215,7 +216,7 @@ color:black;
     flex-wrap: wrap;
     justify-content:flex-start;
     padding:1%;
-    width:70%;
+    width:100%;
   }
   
   /*Bloc des boutons filtres icones */
@@ -568,7 +569,8 @@ color:black;
       justify-content: space-around;
       align-items: stretch;
       flex-wrap: wrap;
-      width:700px;
+      flex-basis: 50%;
+
 
     }
          /*Propriétés big box des grid activités */
@@ -682,7 +684,8 @@ color:black;
       display: flex;
       flex-direction: column;
       flex-basis: 50%;
-      height:450px;      
+      height:450px;    
+        
     }
 
     /*Texte des activités */
@@ -697,7 +700,6 @@ color:black;
       align-items: center;
       justify-content: center;
       display: block;
-      width:100%;
       height:50px;
       width:337px;
       background-color:white;
