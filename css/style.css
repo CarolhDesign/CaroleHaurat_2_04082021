@@ -750,21 +750,3 @@ color:black;
     
   }
     
-  @media screen and (min-width: 1024px) and (max-width: 1366px) {
-
-    #activite{
-      width:100%;
-    }
-
-    #populaire{
-      display:flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      background:#F2F2F2;
-      justify-content: stretch;
-      align-items: center;
-      border-radius: 10px;
-      width:500px;
-      padding: 2%;
-    }
-  }
