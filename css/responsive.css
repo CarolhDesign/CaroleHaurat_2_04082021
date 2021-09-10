@@ -956,17 +956,3 @@ color:black;
 }
 
 }
-
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { }
-  /* Styles pour cette Media Queries */
-  #activite{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    flex-wrap: wrap;
-    padding:3%;
-  }
-  
-  }
