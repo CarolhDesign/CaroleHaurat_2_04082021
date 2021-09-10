@@ -109,6 +109,7 @@ color:black;
       padding :59px 0;
       border-top: 3px solid white;
       color: #1f1f1f;
+      transition: all 1s ease-in;
   }
   
   
