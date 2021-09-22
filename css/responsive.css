@@ -1,4 +1,28 @@
-/* Menu */
+
+
+@media (min-width: 780px) and (max-width: 1280px) {
+
+  .container-articles{
+    flex-direction: column;
+  }
+  /* Titre des filtres */
+
+.filtre{
+  display:flex;
+  flex-direction: row;
+  margin-bottom:0;
+}
+
+.btn-bloc:not(.filtre){
+  position:relative;
+  right:0;
+}
+
+  }
+  
+
+@media screen and (max-width: 779px) {
+    /* Menu */
 /*Reset CSS*/
 *{
   margin: 0px;
@@ -9,12 +33,16 @@
 
   /*Container Menu CSS*/
 
-
+#header{
+  position:relative;
+  margin-bottom:35%;
+  top:0;
+}
     /*items menu*/
     .nav--container--item{
       list-style-type: none;
       display: inline-flex;
-      flex-basis:130px;
+      width:130px;
   }
 
   /*Menu*/
@@ -53,30 +81,6 @@
 
 }
 
-
-@media (min-width: 780px) and (max-width: 1280px) {
-
-  .container-articles{
-    flex-direction: column;
-  }
-  /* Titre des filtres */
-
-.filtre{
-  display:flex;
-  flex-direction: row;
-  margin-bottom:0;
-}
-
-.btn-bloc:not(.filtre){
-  position:relative;
-  right:0;
-}
-
-  }
-  
-
-@media screen and (max-width: 779px) {
-    
   
   .nav--container{
         display: flex;
@@ -357,10 +361,7 @@ padding-left: 10px;
   margin-right: 1%;
 }
 /*Fin container des boutons filtres icones */
-.content{
-  position: relative;
-  top:150px;
-}
+
 
 /*début hébergements */
 
