@@ -63,6 +63,7 @@ color:black;
         position: relative;
         top: 0;
         border-top: 3px solid white;
+        padding-left: 1%;
     }
   
       /*items menu*/
@@ -210,7 +211,6 @@ color:black;
     justify-content:flex-start;
     align-items: center;
     padding:1%;
-    width:100%;
   }
   
   /*Bloc des boutons filtres icones */
@@ -329,7 +329,7 @@ color:black;
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
-    width: 100%;
+
     padding:1%;
   }
   /*début hébergements */
@@ -710,7 +710,6 @@ color:black;
       justify-content: flex-start;
       background-color: #F2F2F2;
       padding: 1%;
-      width:100%;
     }
 
     .footer-1, .footer-2, .footer-3{
