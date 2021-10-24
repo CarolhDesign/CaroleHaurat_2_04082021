@@ -46,6 +46,10 @@ color:black;
     font-size:21px;
   }
 
+  h3{
+    font-size:14px;
+  }
+
   .content{
     max-width:1920px;
     margin: 0 auto;

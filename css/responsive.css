@@ -552,7 +552,8 @@ padding-left: 10px;
 
   /*Titre h2 des cards pop */
 
-.cards-pop-txt h2{
+.cards-pop-txt h2,
+.cards-pop-txt h3  {
   font-size: 14px;
   font-weight: 800;
 }
@@ -840,7 +841,7 @@ color:black;
     /* Boites hébergements */
 
 .card{
-  flex-basis: 100%;
+  flex-basis: 90%;
 }
 
   /*Propriétés des images des cards*/
