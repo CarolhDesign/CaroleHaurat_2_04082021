@@ -743,7 +743,7 @@ padding-left: 10px;
       height:50px;
     }
 
-.activite-txt h2{
+.activite-txt h2, .activite-txt h3{
   font-size:14px;
   color:black;
 }
